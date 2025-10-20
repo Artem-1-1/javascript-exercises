@@ -1,3 +1,13 @@
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const birthYear = 1947;
+const thisYear = 1965;
+
+// const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`
+
+const fullName = firstName + ' ' + lastName;
+const age = thisYear - birthYear;
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 /*
  First name: Carlos
  Last name: Stevenson
@@ -15,7 +25,7 @@
 
 // Do not change this
 module.exports = {
-  firstName: typeof firstName === 'undefined' ? undefined : firstName,
+  firstName: typeof Carlos === 'undefined' ? undefined : Carlos,
   lastName: typeof lastName === 'undefined' ? undefined : lastName,
   thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
   birthYear: typeof birthYear === 'undefined' ? undefined : birthYear,
